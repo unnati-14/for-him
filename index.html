@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>My Valentine Answer 💖</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="card">
+    <h1>This is my answer to your question 💌</h1>
+    <p class="subtitle">"Will you be my Valentine?"</p>
+
+    <!-- Question 1 -->
+    <div class="question" id="q1">
+      <h2>Question 1 🤭</h2>
+      <p>Who is the luckiest guy in the universe?</p>
+      <button onclick="wrong()">Elon Musk 🚀</button>
+      <button onclick="wrong()">Shah Rukh Khan 😎</button>
+      <button onclick="correct(1)">Mukesh Sihag 😌❤️</button>
+    </div>
+
+    <!-- Question 2 -->
+    <div class="question hidden" id="q2">
+      <h2>Question 2 😏</h2>
+      <p>If I smile, what's the reason?</p>
+      <button onclick="wrong()">Weather is good ☀️</button>
+      <button onclick="correct(2)">You exist 🫶</button>
+      <button onclick="wrong()">Free food 🍕</button>
+    </div>
+
+    <!-- Final Answer -->
+    <div class="answer hidden" id="final">
+      <h1>YESSS ❤️💍</h1>
+      <p class="shayari">
+        Tum pooche ho Valentine banne ko,<br>
+        Aur hum sawaalon mein uljha rahe the 💕<br><br>
+
+        Sach toh ye hai jaan,<br>
+        Dil kab ka haan keh chuka tha ❤️<br>
+        Bas thoda drama zaroori tha 😄<br><br>
+
+        So yes…<br>
+        Main tumhari Valentine hoon 💖🌹
+      </p>
+      <button class="restart-btn" onclick="restart()">
+        🔁 Dekho phir se 😏
+      </button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
